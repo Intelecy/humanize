@@ -51,8 +51,8 @@ def intcomma(value):
     else:
         return intcomma(new)
 
-powers = [10 ** x for x in (6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 100)]
-human_powers = (N_('million'), N_('billion'), N_('trillion'), N_('quadrillion'),
+powers = [10 ** x for x in (3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 100)]
+human_powers = (N_('thousand'), N_('million'), N_('billion'), N_('trillion'), N_('quadrillion'),
                 N_('quintillion'), N_('sextillion'), N_('septillion'),
                 N_('octillion'), N_('nonillion'), N_('decillion'), N_('googol'))
 
